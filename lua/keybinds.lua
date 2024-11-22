@@ -22,8 +22,21 @@ set("n", "<C-n>",  ":bnext <CR>", ns)
 set("t", "<ESC>", "<C-\\><C-n><C-w><Cw>", ns)
 
 -- Window
-set("n", "<space>h", ":sp<CR>",  ns)
-set("n", "<space>v", ":vsp<CR>", ns)
-set("n", "<space>+", ":resize +2<CR>", ns)
-set("n", "<space>-", ":resize -2<CR>", ns)
+set("n", "<space>h",  ":sp<CR>",  ns)
+set("n", "<space>v",  ":vsp<CR>", ns)
+set("n", "<space>+",  ":resize +2<CR>", ns)
+set("n", "<space>-",  ":resize -2<CR>", ns)
+set("n", "<space>t",  ":tabnew<CR>", ns)
+set("n", "<space>tt", ":tabnext<CR>", ns)
+set("n", "<space>tc", ":tabclose<CR>", ns)
+
+-- Telescope
+--set("n", "<Leader><Leader>", ":Telescope find_files<CR>", ns)
+--set("n", "<C-p>", ":Telescope buffers<CR>", ns)
+
+-- Nvim Tree
+--set("n", "<C-n>",    ":NvimTreeToggle<CR>", ns)
+--set("n", "<Leader>n", ":NvimTreeFindFile<CR>", ns)
+
+
 

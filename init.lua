@@ -1,8 +1,4 @@
 require('settings')
+require('vim-plug')
 require('keybinds')
-
-
-print 'Olar, mundo!'
-
-
 

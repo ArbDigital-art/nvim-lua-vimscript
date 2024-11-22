@@ -13,25 +13,31 @@ mleader = '<space>'
 
 -- Theme
 opt.termguicolors = true
-cmd [[ colorscheme habamax ]]
+--cmd [[ colorscheme habamax ]]
 
 
 -- General (cmd)Sets
 -- [[ Colchetes representam os comandos do vim script ]]
 
-cmd('set number relativenumber')
-cmd [[ set mouse=a ]]
-cmd [[ set history=100 ]]
-cmd [[ set synmaxcol=240 ]]
-cmd [[ set encoding=utf-8 ]]
-cmd [[ set cursorline ]]
-cmd [[ set expandtab ]]
-cmd [[ set tabstop=2 ]]
-cmd [[ set softtabstop=2 ]]
-cmd [[ set shiftwidth=2 ]]
-cmd [[ set scrolloff=8 ]]
-cmd [[ set colorcolumn=80 ]]
+--cmd('set number relativenumber')
+cmd [[
 
+  colorscheme habamax
+
+  set number relativenumber	
+  set mouse=a 
+  set history=100 
+  set synmaxcol=240
+  set encoding=utf-8
+  set cursorline
+  set expandtab
+  set tabstop=2
+  set softtabstop=2
+  set shiftwidth=2
+  set scrolloff=8
+  set colorcolumn=80
+
+]]
 
 -- Editor
 opt.swapfile    = false
@@ -44,7 +50,6 @@ opt.foldmethod  = 'marker'
 opt.splitright  = true
 opt.splitbelow  = true
 opt.smartindent = true
-
 
 
 
