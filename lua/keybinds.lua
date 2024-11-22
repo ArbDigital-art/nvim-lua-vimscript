@@ -9,11 +9,21 @@ local ns  = { noremap = true, silent = true }
 set("n", ";", ":", nr)
 
 -- Save
-set("n", "<C-w>", ":w <CR>", ns)
+set("n", "<C-s>", ":w <CR>", ns)
 
 -- Explore
 set("n", "<C-e>", ":Explore <CR>", ns)
 
 -- Moving
-set("n", "<C-n>", ":bnext <CR>", ns)
+set("n", "<C-n>",  ":bnext <CR>", ns)
+
+
+-- Terminal
+set("t", "<ESC>", "<C-\\><C-n><C-w><Cw>", ns)
+
+-- Window
+set("n", "<space>h", ":sp<CR>",  ns)
+set("n", "<space>v", ":vsp<CR>", ns)
+set("n", "<space>+", ":resize +2<CR>", ns)
+set("n", "<space>-", ":resize -2<CR>", ns)
 
