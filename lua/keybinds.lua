@@ -12,7 +12,7 @@ set("n", ";", ":", nr)
 set("n", "<C-s>", ":w <CR>", ns)
 
 -- Explore
-set("n", "<C-e>", ":Explore <CR>", ns)
+--set("n", "<C-e>", ":Explore <CR>", ns)
 
 -- Moving
 set("n", "<C-n>",  ":bnext <CR>", ns)
@@ -34,9 +34,8 @@ set("n", "<space>tc", ":tabclose<CR>", ns)
 --set("n", "<Leader><Leader>", ":Telescope find_files<CR>", ns)
 --set("n", "<C-p>", ":Telescope buffers<CR>", ns)
 
--- Nvim Tree
---set("n", "<C-n>",    ":NvimTreeToggle<CR>", ns)
---set("n", "<Leader>n", ":NvimTreeFindFile<CR>", ns)
+-- NERDTreeToggle
+set("n", "<C-e>", ":NERDTreeToggle<CR>", ns)
 
 
 

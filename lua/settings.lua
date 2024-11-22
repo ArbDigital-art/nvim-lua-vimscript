@@ -21,8 +21,7 @@ opt.termguicolors = true
 
 --cmd('set number relativenumber')
 cmd [[
-
-  colorscheme habamax
+  colorscheme catppuccin 
 
   set number relativenumber	
   set mouse=a 

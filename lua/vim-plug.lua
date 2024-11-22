@@ -6,6 +6,16 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin', '~/.config/nvim/plugged')
 
--- Plug 'tpope/vim-sensible'
+Plug('catppuccin/nvim', { as = 'catppuccin' })
+
+Plug 'ap/Vim-css-color'
+Plug 'vim-airline/vim-airline'
+Plug 'navarasu/onedark.nvim'
+Plug 'preservim/nerdtree'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'voldikss/vim-floaterm'
 
 vim.call('plug#end')
