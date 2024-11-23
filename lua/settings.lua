@@ -9,7 +9,6 @@ syntax = true
 -- Mapleader key
 g.mapleader = '.'
 
-
 -- Theme
 opt.termguicolors = true
 g.transparent_enabled = true
@@ -36,12 +35,6 @@ cmd [[
 
 ]]
 
--- Floaterminal setup
-cmd [[
-  let g:floaterm_keymap_toggle = '<Leader>t'
-
-]]
-
 
 -- Editor
 opt.swapfile    = false
@@ -54,7 +47,5 @@ opt.foldmethod  = 'marker'
 opt.splitright  = true
 opt.splitbelow  = true
 opt.smartindent = true
-
-
 
 

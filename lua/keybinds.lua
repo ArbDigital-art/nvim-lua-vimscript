@@ -23,7 +23,29 @@ set("n", "<C-n>",  ":bnext <CR>", ns)
 -- Terminal
 set("t", "<ESC>", "<C-\\><C-n><C-w><Cw>", ns)
 
--- Window
+
+-- Edits --------------------------------
+-- (adiciona aspas duplas em uma palavra)
+set('n', '<Leader>"', 'viw<Esc>a"<esc>bi"<esc>ela', ns)
+-- (adiciona aspas simples em uma palavra)
+set("n", "<Leader>'", "viw<Esc>a'<esc>bi'<esc>ela", ns)
+-- (adiciona parenteses em uma palavra)
+set("n", "<Leader>(", "viw<Esc>a)<esc>bi(<esc>ela", ns)
+-- (adiciona chaves em uma palavra)
+set("n", "<Leader>{", "viw<Esc>a}<esc>bi{<esc>ela", ns)
+-- (adiciona colchetes em uma palavra)
+set("n", "<Leader>[", "viw<Esc>a]<esc>bi[<esc>ela", ns)
+-- (adiciona tags em uma palavra)
+set("n", "<Leader><", "viw<Esc>a><esc>bi<<esc>ela", ns)
+
+-- comentário lua
+set("n", "<Leader>-", "viw<Esc>a<esc>bi-- <esc>ela", ns)
+-- comentário python
+set("n", "<Leader>/", "viw<Esc>a<esc>bi// <esc>ela", ns)
+
+
+
+-- ({[<Window>]})
 set("n", "<space>h",  ":sp<CR>",  ns)
 set("n", "<space>v",  ":vsp<CR>", ns)
 set("n", "<space>+",  ":resize +2<CR>", ns)
