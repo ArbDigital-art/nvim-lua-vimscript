@@ -1,5 +1,6 @@
 -- keybinds
 --
+
 local set = vim.api.nvim_set_keymap
 local nr  = { noremap = true }
 local ns  = { noremap = true, silent = true }
@@ -7,6 +8,7 @@ local ns  = { noremap = true, silent = true }
 
 -- Command
 set("n", ";", ":", nr)
+set("n", "<Leader>r", ":luafile %<CR>", ns)
 
 -- Save
 set("n", "<C-s>", ":w <CR>", ns)
@@ -31,8 +33,8 @@ set("n", "<space>tt", ":tabnext<CR>", ns)
 set("n", "<space>tc", ":tabclose<CR>", ns)
 
 -- Telescope
---set("n", "<Leader><Leader>", ":Telescope find_files<CR>", ns)
---set("n", "<C-p>", ":Telescope buffers<CR>", ns)
+set("n", "<Leader><Leader>", ":Telescope find_files<CR>", ns)
+set("n", "<Leader>b",        ":Telescope buffers<CR>", ns)
 
 -- NERDTreeToggle
 set("n", "<C-e>", ":NERDTreeToggle<CR>", ns)

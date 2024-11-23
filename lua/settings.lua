@@ -1,27 +1,25 @@
 local cmd = vim.cmd
 local opt = vim.opt
-local mleader = vim.g.mapleader
+local g   = vim.g
 
 
 -- Syntax
 syntax = true
 
-
--- Mapleader
-mleader = '<space>'
+-- Mapleader key
+g.mapleader = '.'
 
 
 -- Theme
 opt.termguicolors = true
---cmd [[ colorscheme habamax ]]
-
+g.transparent_enabled = true
 
 -- General (cmd)Sets
 -- [[ Colchetes representam os comandos do vim script ]]
 
 --cmd('set number relativenumber')
 cmd [[
-  colorscheme catppuccin 
+  colorscheme catppuccin
 
   set number relativenumber	
   set mouse=a 
@@ -37,6 +35,13 @@ cmd [[
   set colorcolumn=80
 
 ]]
+
+-- Floaterminal setup
+cmd [[
+  let g:floaterm_keymap_toggle = '<Leader>t'
+
+]]
+
 
 -- Editor
 opt.swapfile    = false
