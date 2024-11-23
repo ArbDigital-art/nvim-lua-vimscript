@@ -20,10 +20,14 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
 
+Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'voldikss/vim-floaterm'
+
+-- LSP
+Plug('neoclide/coc.nvim', { branch = 'release'} )
 
 vim.call('plug#end')
