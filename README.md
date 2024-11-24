@@ -1,4 +1,4 @@
-## Configuração NeoVim utilizando lua e Pluginstall
+## Configuração NeoVim utilizando lua e vimscript
 
 - 1.0
 
