@@ -11,7 +11,7 @@ g.mapleader = '.'
 
 -- Theme
 opt.termguicolors = true
-g.transparent_enabled = true
+
 
 -- General (cmd)Sets
 -- [[ Colchetes representam os comandos do vim script ]]
@@ -35,7 +35,6 @@ cmd [[
 
 ]]
 
-
 -- Editor
 opt.swapfile    = false
 opt.hidden      = true
@@ -47,5 +46,6 @@ opt.foldmethod  = 'marker'
 opt.splitright  = true
 opt.splitbelow  = true
 opt.smartindent = true
+
 
 

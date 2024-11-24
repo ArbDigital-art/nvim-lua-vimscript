@@ -20,6 +20,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'rbong/vim-flog'
 
+Plug 'jiangmiao/auto-pairs'
+-- Plug 'windwp/nvim-autopairs'
 Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'nvim-lua/plenary.nvim'

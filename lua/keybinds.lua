@@ -1,10 +1,8 @@
 -- keybinds
 --
-
 local set = vim.api.nvim_set_keymap
 local nr  = { noremap = true }
 local ns  = { noremap = true, silent = true }
-
 
 -- Command
 set("n", ";", ":", nr)
@@ -22,6 +20,7 @@ set("n", "<C-n>",  ":bnext <CR>", ns)
 
 -- Terminal
 set("t", "<ESC>", "<C-\\><C-n><C-w><Cw>", ns)
+
 
 
 -- Edits --------------------------------
@@ -59,6 +58,5 @@ set("n", "<Leader>b",        ":Telescope buffers<CR>", ns)
 
 -- NERDTreeToggle
 set("n", "<C-e>", ":NERDTreeToggle<CR>", ns)
-
 
 
